@@ -4,7 +4,7 @@ package project1;
  * 	while maintaining normal functionality of the program.
  */
 
-public class QuestionSingle //implements Question
+public class QuestionSingle
 {
 	private enum answers
 	{

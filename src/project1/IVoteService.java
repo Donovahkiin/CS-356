@@ -29,13 +29,7 @@ public class IVoteService
 		 * 	from students, searches past results to check for a repeat ID and overwrites that submission if 
 		 * 	there's a repeat. Then, let the Driver class tell IVoteService when to compile the data together.	
 		 * 	This way it's easier to overwrite multiple submissions from a single student. */
-		
-		//if(submissionsID.isEmpty())	// extra conditional statement to avoid null pointer exception searching for ID
-		//{
-		//	submissionsID.add(ID);
-		//	submissionsData.add(submission);
-		//}
-		
+
 		if(submissionsID.contains(ID))	// if this student has already submitted an answer
 		{
 			int index = submissionsID.indexOf(ID);
